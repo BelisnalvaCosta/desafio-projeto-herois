@@ -1,6 +1,6 @@
 ## Jogo do Herói — Galeria de Personagens
 
-<img width="880" height="761" alt="jogo-do-herói" src="https://github.com/user-attachments/assets/cef954b0-ba20-4498-b76c-26c7fe870485" />
+<img width="877" height="800" alt="jogo-herois" src="https://github.com/user-attachments/assets/b2feceae-5b04-4421-a996-18ed9bd5ef1c" />
 
 
 Um pequeno projeto em HTML, CSS e JavaScript onde o usuário seleciona um herói e pode executar um ataque. Ideal para aprender manipulação do DOM, eventos e manipulação de imagens.
