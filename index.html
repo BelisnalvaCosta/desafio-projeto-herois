@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo do Herói</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Jogo do Herói</h1>
+
+    <!-- Seleção do Herói -->
+    <div class="heroi-selecao">
+      <h2>Escolha seu Herói</h2>
+      <div class="herois">
+        <div class="heroi" id="guerreira">
+          <img src="./imagens/espada.png" alt="guerreira">
+          <p>Guerreira</p>
+        </div>
+        <div class="heroi" id="mago">
+          <img src="./imagens/mago.png" alt="mago">
+          <p>Mago</p>
+        </div>
+        <div class="heroi" id="monge">
+          <img src="./imagens/monge.png" alt="monge">
+          <p>Monge</p>
+        </div>
+        <div class="heroi" id="ninja">
+          <img src="./imagens/ninja.png" alt="ninja">
+          <p>Ninja</p>
+        </div>
+        <div class="heroi" id="arqueira">
+          <img src="./imagens/arqueira.png" alt="arqueira">
+          <p>Arqueira</p>
+        </div>
+        <div class="heroi" id="assassino">
+          <img src="./imagens/assassino.png" alt="assassino">
+          <p>Assassino</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Exibição dos detalhes do herói selecionado -->
+    <div class="heroi-info">
+      <p><strong>Nome:</strong> <span id="nome">Escolha um Herói</span></p>
+      <p><strong>Idade:</strong> <span id="idade">?</span></p>
+      <p><strong>Tipo:</strong> <span id="tipo">?</span></p>
+    </div>
+
+    <!-- Botão para Atacar -->
+    <button id="atacar-btn" disabled>Atacar</button>
+
+    <!-- Resultado do Ataque -->
+    <div id="resultado" class="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
